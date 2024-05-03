@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagar Oil Mill - The Taste of Pureness</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .logo {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner" style="height: 11vh">
+      <div class="navbar">
+        <h3 class="logo">Saurav Oil Mill</h3>
+        <!-- <img src=""  class="logo-image" alt="logo"> -->
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- shopping section -->
+    <div class="shopping-section">
+      <div class="title">
+        <h2 class="heading">Shop</h2>
+        <div class="results">
+          <span class="sub-heading">Showing all 2 results</span>
+          <div class="row-2">
+            <select name="" id="">
+              <option value="">Default Shorting</option>
+              <option value="">Short by Price: high to low</option>
+              <option value="">Short by Price: low to high</option>
+              <option value="">Short by Popularity</option>
+              <option value="">Short by Latest</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="col-4">
+          <img onclick="openProductPage('product1')"
+            src="https://kumaroilmill.com.np/wp-content/uploads/2023/08/b570fbb9-b710-415d-b620-8a7a8f7cb51d-600x800.jpeg"
+          />
+          <h4 class="product-name">Pure Mustard Oil 1L</h4>
+          <div class="price">
+            <p class="line-through">RS.350.00</p>
+            <p>RS.300.00</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <img onclick="openProductPage('product2')"
+            src="https://kumaroilmill.com.np/wp-content/uploads/2023/08/Untitled-design-600x600.jpg"
+          />
+          <h4>Pure Mustard Oil 1L</h4>
+          <div class="price">
+            <p class="line-through">RS.2050.00</p>
+            <p>RS.1800.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="" class="logo" alt="logo" />
+          <p>
+            Mustard oil is reddish-brown or amber in colour and is known for its
+            strong smell and pungent.
+          </p>
+        </div>
+        <div class="col">
+          <h2>Office</h2>
+          <p>Mahendra Highway</p>
+          <p>Butwal, Rupandehi</p>
+          <p>Tamnagar, 32009, Nepal</p>
+          <p class="email-id">sauravoilmill@gmail.com</p>
+          <h4>+977 - 9867925779</h4>
+        </div>
+        <div class="col">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>News Letter</h2>
+          <form action="" class="form">
+            <i class="far fa-envelope"></i>
+            <input
+              class="footer-form-input"
+              type="email"
+              placeholder="Enter your Email Address"
+              required
+            />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="http://"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://"><i class="fab fa-twitter"></i></a>
+            <a href="http://"><i class="fab fa-whatsapp"></i></a>
+            <a href="http://"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Saurav Oil Mill &copy; 2024 - All Rights Reserved</p>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
